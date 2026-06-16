@@ -116,8 +116,8 @@ public class App {
         revLinkedList.append(6);
         revLinkedList.append(7);
         revLinkedList.printList();
-        //revLinkedList.reversBetween(1, 3);
-        //revLinkedList.printList();
+        revLinkedList.reverseBetween(1, 3);
+        revLinkedList.printList();
         revLinkedList.swapInPais();
         revLinkedList.printList();
 

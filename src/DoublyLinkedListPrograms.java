@@ -36,6 +36,44 @@ public class DoublyLinkedListPrograms {
         doublyLinkedList.printList();
 
         System.out.println("Prev value: " + doublyLinkedList.get(1).prev.value);
+
+        doublyLinkedList.append(3);
+
+        doublyLinkedList.printList();
+
+        doublyLinkedList.reverse();
+
+        doublyLinkedList.printList();
+
+        System.out.println(doublyLinkedList.get(1).next.value);
+
+        System.out.println(doublyLinkedList.getHead().prev);
+
+        System.out.println(doublyLinkedList.getTail().next);
+
+        doublyLinkedList.set(0, 1);
+
+        doublyLinkedList.append(4);
+
+        doublyLinkedList.append(0);
+
+        doublyLinkedList.append(5);
+
+        doublyLinkedList.printList();
+
+        doublyLinkedList.partitionList(2);
+
+        doublyLinkedList.printList();
+
+        System.out.println(doublyLinkedList.get(1).next.value);
+
+        doublyLinkedList.reverseBetween(2, 5);
+
+        doublyLinkedList.printList();
+
+        doublyLinkedList.swapInPais();
+
+        doublyLinkedList.printList();
     }
 
 }

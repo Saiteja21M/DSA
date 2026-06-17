@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         int[] nums = new int[] { -4, -1, -1, 0, 1, 2 };
 
@@ -64,63 +64,7 @@ public class App {
 
         }
 
-        LinkedList linkedList = new LinkedList(4);
-        linkedList.append(5);
-        linkedList.append(6);
-        linkedList.append(7);
-        linkedList.append(8);
-        // linkedList.printList();
-
-        linkedList.removeLast();
-        // linkedList.printList();
-
-        linkedList.prepend(3);
-        // linkedList.printList();
-
-        linkedList.removeFirst();
-        // linkedList.printList();
-
-        // System.out.println(linkedList.get(3).value + "\n");
-
-        linkedList.set(2, weightIndex);
-        // linkedList.printList();
-
-        linkedList.insert(1, weightIndex);
-        // linkedList.printList();
-
-        linkedList.remove(4);
-        linkedList.printList();
-
-        LinkedList linkedList1 = new LinkedList(1);
-        linkedList1.append(2);
-        linkedList1.append(3);
-        linkedList1.append(4);
-        linkedList1.append(5);
-        linkedList1.append(6);
-
-        linkedList1.findKthFromEnd(1);
-
-        //linkedList.removeDuplicates();
-        linkedList.printList();
-
-        //linkedList.partitionList(2);
-        linkedList.printList();
-
-        linkedList.append(6);
-
-        LinkedList revLinkedList = new LinkedList(1);
-        revLinkedList.append(2);
-        revLinkedList.append(3);
-        revLinkedList.append(4);
-        revLinkedList.append(5);
-        revLinkedList.append(6);
-        revLinkedList.append(7);
-        revLinkedList.printList();
-        revLinkedList.reverseBetween(1, 3);
-        revLinkedList.printList();
-        revLinkedList.swapInPais();
-        revLinkedList.printList();
-
+        System.out.println(weightIndex);
     }
 }
 
